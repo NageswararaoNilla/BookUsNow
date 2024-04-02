@@ -1,0 +1,10 @@
+/* src/styles.css */
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+/* TODO: update styles from here */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
