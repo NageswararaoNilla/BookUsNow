@@ -1,12 +1,23 @@
 import NavBar from "./components/NavBar";
-
+import Banner from "./components/Banner";
+import Shows from "./components/Shows";
+import Events from "./components/Events";
 // import './App.css';
 
 function App() {
   return (
     <>
-      <div className="">
+      <div className="mx-10 my-5 max-[480px]:mx-2 max-[480px]: max-w-full max-[480px]:overflow-x-hidden">
         <NavBar />
+      </div>
+      <div className="mx-10 max-[480px]:mx-2 max-[480px]: max-w-full max-[480px]:overflow-x-hidden">
+        <Banner />
+      </div>
+      <div className="mt-10 mx-20 max-[480px]:mx-2 max-[480px]: max-w-full max-[480px]:overflow-x-hidden">
+        <Shows />
+      </div>
+      <div className="mt-12 mx-24 max-[480px]:mx-2 max-[480px]: max-w-full max-[480px]:overflow-x-hidden ">
+        <Events />
       </div>
     </>
   );
